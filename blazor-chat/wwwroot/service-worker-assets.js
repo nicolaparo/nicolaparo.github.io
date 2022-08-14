@@ -33,7 +33,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-0XX4xKFl9I8fCmuIFgSkFN6JGZ17lNfqiHC9hsCKN\/A=",
+      "hash": "sha256-jehn0AY7jJuvMAj0qU6UEsxNW08efg8NcYroCw9da08=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -129,11 +129,11 @@
       "url": "_framework\/Microsoft.Win32.Primitives.dll"
     },
     {
-      "hash": "sha256-3gy2CaZqk8G\/d9AFgxek9mu7j9DCUOhOWaI9LtgHmd0=",
+      "hash": "sha256-1VP\/eefs+8rd+l9Qlg\/UKr2\/+Qy9I77dI+3\/5cvvcYg=",
       "url": "_framework\/NicolaParo.BlazorChat.dll"
     },
     {
-      "hash": "sha256-CL2h0T6fFREhZOK4K4T16Mx83gBhiuo+F+N5yTtJiaM=",
+      "hash": "sha256-UXgOR59+vZkWmlaha8STrj69S3XqORWcJ2B2ahl9uqw=",
       "url": "_framework\/NicolaParo.BlazorChat.Models.dll"
     },
     {
@@ -329,6 +329,10 @@
       "url": "index.html"
     },
     {
+      "hash": "sha256-L15tXfbtoNIMI+MgXrhqLL92SV7fm04zpiPXv9jVEnM=",
+      "url": "index_github.html"
+    },
+    {
       "hash": "sha256-PX0PpIeKjVtgvYZbigO\/C632ueRunzKNL50npg4+hKY=",
       "url": "manifest.json"
     },
@@ -337,5 +341,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "QaIrIq0l"
+  "version": "mncKL4It"
 };
