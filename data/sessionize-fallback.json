@@ -1,0 +1,59 @@
+{
+  "speaker": {
+    "firstName": "Nicola",
+    "lastName": "Paro",
+    "tagline": "Senior Software Engineer | Solution Architect | Microsoft MVP",
+    "bio": "Solution Architect with over 10 years of industry experience focused on Industrial IoT, .NET, Blazor, and AI technologies.",
+    "speakerProfileUrl": "https://sessionize.com/nicolaparo",
+    "photoLargeUrl": "https://sessionize.com/image/3ce9-1000o1000o1-svA5yki1CizFvJ5MZ73xSR.png"
+  },
+  "sessions": [
+    {
+      "id": 170512,
+      "title": "Dal codice al container: Docker e Azure Container Registry in pratica",
+      "description": "Session about practical containerization workflows with Docker and Azure Container Registry.",
+      "sessionUrl": "https://sessionize.com/s/nicolaparo/dal-codice-al-container-docker-e-azure-container-r/170512",
+      "language": "English"
+    },
+    {
+      "id": 164821,
+      "title": "Creare Videogames e Collaborative Apps: e possibile con Blazor?",
+      "description": "Exploring Blazor Server for real-time collaborative and game-like experiences.",
+      "sessionUrl": "https://sessionize.com/s/nicolaparo/creare-videogames-e-collaborative-apps-e-possibile/164821",
+      "language": "English"
+    },
+    {
+      "id": 149785,
+      "title": "Ollama: Local AI for my Raspberry Pi",
+      "description": "Running local AI models and integrating them with .NET applications.",
+      "sessionUrl": "https://sessionize.com/s/nicolaparo/ollama-local-ai-for-my-raspberry-pi/149785",
+      "language": "English"
+    }
+  ],
+  "events": [
+    {
+      "id": 22479,
+      "name": "Global Azure 2026 Pordenone",
+      "eventStartDate": "2026-04-18T00:00:00",
+      "eventEndDate": "2026-04-18T00:00:00",
+      "location": "Pordenone, Italy",
+      "website": "https://globalazure2026pn.1nn0va.it/"
+    },
+    {
+      "id": 22211,
+      "name": "BlazorConf 2026",
+      "eventStartDate": "2026-04-10T00:00:00",
+      "eventEndDate": "2026-04-10T00:00:00",
+      "location": "Mestre, Italy",
+      "website": "https://blazorconf.it/"
+    },
+    {
+      "id": 21373,
+      "name": ".NET Saturday 2026 Pordenone",
+      "eventStartDate": "2026-01-31T00:00:00",
+      "eventEndDate": "2026-01-31T00:00:00",
+      "location": "Pordenone, Italy",
+      "website": "https://dotnetsat2026pn.1nn0va.it/"
+    }
+  ]
+}

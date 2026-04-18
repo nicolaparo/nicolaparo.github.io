@@ -1,0 +1,156 @@
+{
+  "profile": {
+    "name": "Nicola Paro",
+    "tagline": {
+      "en": "Senior Software Engineer | Solution Architect | Microsoft MVP",
+      "it": "Senior Software Engineer | Solution Architect | Microsoft MVP"
+    },
+    "bio": {
+      "en": "I design and build cloud-native products across .NET, Blazor, Azure, and AI. I enjoy translating complex systems into practical architectures that teams can ship and evolve with confidence.",
+      "it": "Progetto e sviluppo prodotti cloud-native con .NET, Blazor, Azure e AI. Mi piace trasformare sistemi complessi in architetture concrete che i team possono rilasciare ed evolvere con sicurezza."
+    },
+    "sessionizeProfile": "https://sessionize.com/nicolaparo",
+    "social": [
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/nicolaparo/"
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/nicolaparo"
+      },
+      {
+        "label": "X",
+        "url": "https://twitter.com/nicola_paro"
+      }
+    ]
+  },
+  "highlights": [
+    {
+      "title": {
+        "en": "Cloud and Architecture",
+        "it": "Cloud e Architettura"
+      },
+      "text": {
+        "en": "Designing modern distributed platforms on Azure with a pragmatic, production-first approach.",
+        "it": "Progettazione di piattaforme distribuite moderne su Azure con un approccio pragmatico e orientato alla produzione."
+      }
+    },
+    {
+      "title": {
+        "en": "Full Stack .NET",
+        "it": "Full Stack .NET"
+      },
+      "text": {
+        "en": "From backend APIs to advanced Blazor frontends, focused on reliability, maintainability, and developer experience.",
+        "it": "Dalle API backend ai frontend Blazor avanzati, con focus su affidabilita, manutenzione ed esperienza sviluppatore."
+      }
+    },
+    {
+      "title": {
+        "en": "AI in Real Products",
+        "it": "AI in Prodotti Reali"
+      },
+      "text": {
+        "en": "Applying LLM and Azure AI capabilities where they create measurable value in software delivery.",
+        "it": "Applicazione di LLM e servizi Azure AI dove generano valore misurabile nello sviluppo software."
+      }
+    }
+  ],
+  "projects": [
+    {
+      "name": "conferences",
+      "description": {
+        "en": "Main repository used for conference materials, demos, and speaker assets.",
+        "it": "Repository principale usata per materiali conferenze, demo e asset da speaker."
+      },
+      "repo": "nicolaparo/conferences",
+      "stack": ["C#", "Blazor", "Presentations", "Demos"],
+      "featured": true
+    },
+    {
+      "name": "BlazorConf2026Demo",
+      "description": {
+        "en": "Demo repository for BlazorConf 2026 sessions and real-world Blazor explorations.",
+        "it": "Repository demo per le sessioni di BlazorConf 2026 e sperimentazioni Blazor reali."
+      },
+      "repo": "nicolaparo/BlazorConf2026Demo",
+      "stack": ["Blazor", ".NET", "C#", "Demo"],
+      "featured": true
+    },
+    {
+      "name": "GlobalAzure26",
+      "description": {
+        "en": "Automation and cloud scripts supporting Global Azure 2026 activities.",
+        "it": "Script cloud e automazione a supporto delle attivita Global Azure 2026."
+      },
+      "repo": "nicolaparo/GlobalAzure26",
+      "stack": ["Azure", "PowerShell", "Cloud Automation"],
+      "featured": true
+    },
+    {
+      "name": "DependencyInjectionDemo",
+      "description": {
+        "en": "Reference implementation for advanced dependency injection topics in modern .NET.",
+        "it": "Implementazione di riferimento per temi avanzati di dependency injection in .NET moderno."
+      },
+      "repo": "nicolaparo/DependencyInjectionDemo",
+      "stack": [".NET", "C#", "Architecture", "DI"],
+      "featured": false
+    }
+  ],
+  "skills": [
+    {
+      "category": {
+        "en": "Cloud and Platform",
+        "it": "Cloud e Piattaforma"
+      },
+      "items": ["Azure", "Container Apps", "AKS", "App Services", "Event-driven design"]
+    },
+    {
+      "category": {
+        "en": ".NET Engineering",
+        "it": "Ingegneria .NET"
+      },
+      "items": [".NET", "ASP.NET Core", "Blazor", "SignalR", "C#"]
+    },
+    {
+      "category": {
+        "en": "AI and Data",
+        "it": "AI e Dati"
+      },
+      "items": ["Azure AI", "LLM integration", "Azure Data Explorer", "Data pipelines"]
+    },
+    {
+      "category": {
+        "en": "Architecture and Delivery",
+        "it": "Architettura e Delivery"
+      },
+      "items": ["Solution Architecture", "DevOps", "CI/CD", "Technical mentoring"]
+    }
+  ],
+  "news": [
+    {
+      "title": {
+        "en": "Speaking at Global Azure 2026",
+        "it": "Speaker a Global Azure 2026"
+      },
+      "text": {
+        "en": "New talks on containerization and modern cloud architecture are now in the 2026 agenda.",
+        "it": "Nuovi talk su containerizzazione e architettura cloud moderna sono ora nell'agenda 2026."
+      },
+      "url": "https://sessionize.com/nicolaparo"
+    },
+    {
+      "title": {
+        "en": "Exploring local AI with .NET",
+        "it": "Esplorazione AI locale con .NET"
+      },
+      "text": {
+        "en": "Hands-on experiments with local AI agents and practical integrations in production-style apps.",
+        "it": "Esperimenti pratici con agenti AI locali e integrazioni concrete in applicazioni reali."
+      },
+      "url": "https://sessionize.com/s/nicolaparo/ollama-local-ai-for-my-raspberry-pi/149785"
+    }
+  ]
+}

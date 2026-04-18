@@ -1,1 +1,121 @@
-<meta http-equiv="refresh" content="0; URL=https://www.nicolaparo.it/" />
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Nicola Paro - Senior Software Engineer, Solution Architect, Microsoft MVP. Projects, skills, sessions, and events.">
+	<meta property="og:title" content="Nicola Paro | Technology Portfolio">
+	<meta property="og:description" content="Clean and futuristic portfolio showcasing projects, talks, skills, and technology focus.">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="profilepic_without_others.png">
+	<link rel="icon" href="profilepic_without_others.png">
+	<meta name="color-scheme" content="dark">
+	<title>Nicola Paro | Technology Portfolio</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+	<div class="bg-grid" aria-hidden="true"></div>
+	<header class="site-header">
+		<a class="brand" href="#top">NP</a>
+		<nav class="site-nav" aria-label="Primary">
+			<a href="#projects" data-i18n="navProjects"></a>
+			<a href="#skills" data-i18n="navSkills"></a>
+			<a href="#sessions" data-i18n="navSessions"></a>
+			<a href="#events" data-i18n="navEvents"></a>
+			<a href="#contact" data-i18n="navContact"></a>
+		</nav>
+		<div class="mode-switch" role="group" aria-label="View mode switch">
+			<button id="mode-human" class="mode-button" type="button">Human mode view</button>
+			<button id="mode-code" class="mode-button" type="button">Show me the code</button>
+		</div>
+	</header>
+
+	<main id="top" class="layout">
+		<section class="hero panel reveal content-section" id="hero">
+			<div class="hero-content">
+				<p class="eyebrow" data-i18n="heroEyebrow"></p>
+				<h1 id="hero-name"></h1>
+				<p class="tagline" id="hero-tagline"></p>
+				<p class="bio" id="hero-bio"></p>
+				<div class="hero-cta">
+					<a id="sessionize-link" class="btn btn-primary" target="_blank" rel="noreferrer" href="#" data-i18n="ctaTalks"></a>
+					<a class="btn btn-secondary" href="#projects" data-i18n="ctaProjects"></a>
+				</div>
+			</div>
+			<aside class="hero-media">
+				<img id="hero-image" src="profilepic_without_others.png" alt="Nicola Paro profile photo" loading="eager">
+				<ul id="social-links" class="social-links" aria-label="Social links"></ul>
+			</aside>
+		</section>
+
+		<section class="highlights reveal content-section" id="highlights" aria-labelledby="highlights-title">
+			<h2 id="highlights-title" data-i18n="highlightsTitle"></h2>
+			<div id="highlight-cards" class="card-grid card-grid-3"></div>
+		</section>
+
+		<section class="projects reveal content-section" id="projects" aria-labelledby="projects-title">
+			<div class="section-head">
+				<h2 id="projects-title" data-i18n="projectsTitle"></h2>
+				<p data-i18n="projectsSubtitle"></p>
+			</div>
+			<div id="projects-grid" class="card-grid card-grid-2"></div>
+		</section>
+
+		<section class="skills reveal content-section" id="skills" aria-labelledby="skills-title">
+			<div class="section-head">
+				<h2 id="skills-title" data-i18n="skillsTitle"></h2>
+				<p data-i18n="skillsSubtitle"></p>
+			</div>
+			<div id="skills-grid" class="skill-grid"></div>
+		</section>
+
+		<section class="sessions reveal content-section" id="sessions" aria-labelledby="sessions-title">
+			<div class="section-head">
+				<h2 id="sessions-title" data-i18n="sessionsTitle"></h2>
+				<p data-i18n="sessionsSubtitle"></p>
+			</div>
+			<div id="sessions-status" class="status"></div>
+			<div id="sessions-grid" class="card-grid card-grid-2"></div>
+		</section>
+
+		<section class="events reveal content-section" id="events" aria-labelledby="events-title">
+			<div class="section-head">
+				<h2 id="events-title" data-i18n="eventsTitle"></h2>
+				<p data-i18n="eventsSubtitle"></p>
+			</div>
+			<div id="events-status" class="status"></div>
+			<div id="events-timeline" class="timeline"></div>
+		</section>
+
+		<section class="news reveal content-section" id="news" aria-labelledby="news-title">
+			<div class="section-head">
+				<h2 id="news-title" data-i18n="newsTitle"></h2>
+				<p data-i18n="newsSubtitle"></p>
+			</div>
+			<div id="news-grid" class="card-grid card-grid-2"></div>
+		</section>
+
+		<section class="contact panel reveal content-section" id="contact" aria-labelledby="contact-title">
+			<h2 id="contact-title" data-i18n="contactTitle"></h2>
+			<p data-i18n="contactText"></p>
+			<div class="hero-cta">
+				<a id="linkedin-link" class="btn btn-primary" target="_blank" rel="noreferrer" href="#">LinkedIn</a>
+				<a id="github-link" class="btn btn-secondary" target="_blank" rel="noreferrer" href="#">GitHub</a>
+			</div>
+		</section>
+
+	</main>
+
+	<footer class="site-footer">
+		<p>
+			<span data-i18n="footerText"></span>
+			<span id="last-sync">-</span>
+		</p>
+	</footer>
+
+	<script src="assets/site.js" defer></script>
+</body>
+</html>
