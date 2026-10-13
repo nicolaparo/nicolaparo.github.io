@@ -215,11 +215,6 @@ function renderProfile() {
     sessionizeLink.href = speaker.speakerProfileUrl || profile.sessionizeProfile;
   }
 
-  const heroImage = q("#hero-image");
-  if (heroImage && (speaker.photoLargeUrl || speaker.photoUrl)) {
-    heroImage.src = speaker.photoLargeUrl || speaker.photoUrl;
-  }
-
   const social = q("#social-links");
   social.innerHTML = "";
   profile.social.forEach((item) => {
